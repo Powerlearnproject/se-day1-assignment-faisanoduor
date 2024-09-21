@@ -16,7 +16,7 @@ CREATE  TABLE  providers(
     email_adress VARCHAR(50) NOT NULL,
     phone_nunber VARCHAR(100) NOT NULL,
     date_joined VARCHAR(100) NOT NULL,
-)
+); 
 CREATE TABLE visits (
     visit_id INT AUTO_INCREMENT PRIMARY KEY,
     patient_id INT NOT NULL,
